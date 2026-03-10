@@ -33,5 +33,9 @@ func main() {
 	// prompt_tokens=26  completion_tokens=74  total_tokens=100
 	// cached_tokens=0  prompt_audio_tokens=0
 
+	fmt.Println("\n\nAnthropic SDK + Bifrost + OpenAI... ")
+	anthropicWithBifrostOpenAIMessage("openai/gpt-4o-mini")
+	// [usage] input_tokens=0  output_tokens=49  cache_creation=0  cache_read=0
+
 	fmt.Println("\n\nDone")
 }
